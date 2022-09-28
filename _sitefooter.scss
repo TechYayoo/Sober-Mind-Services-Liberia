@@ -1,0 +1,49 @@
+/* ==== Website Footer Page ===== */
+.footer{
+    background-color: var(--first-color-lighten);
+    padding-top:2rem;
+
+    &__container{
+        row-gap: 2rem;
+   }
+   &__logo,
+   &__title{
+    font-size:var(--h3-font-size);
+    margin-bottom:var(--mb-0-75);
+
+   }
+   &__logo{
+    display:inline-block;
+    font-weight:var(--font-semi-bold);
+    color:var(--title-color);
+   }
+   &__description,
+   &__link{
+    font-size:var(--font-small-size);
+   }
+   &__links{
+    display:grid;
+    row-gap:.5rem;
+   }
+   &__link{
+    color:var(--title-color);
+   }
+   &__social-icons{
+      display: flex;
+      column-gap: .5rem;
+
+     &__link{
+        font-size:1.25rem;
+        color:var(--title-color);
+     }
+   }
+   &__copy{
+    margin-top:6rem;
+    text-align: center;
+    font-size: var(--font-small-size);
+    color:var(--text-color);
+
+
+   }
+
+}

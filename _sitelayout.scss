@@ -1,0 +1,43 @@
+/* === Website reusable style classes === */
+.section{
+    padding:0.4rem;
+
+    &__title, &__title-center{
+        font-size:var(--h2-font-size);
+        color:var(--title-color);
+        text-align:center;
+        margin-bottom:var(--mb-1);
+
+    }
+}
+
+.site{
+  &__color{
+      fill:var(--first-color);
+
+  } 
+  &__blob{
+      fill:var(--first-color-light);
+  }
+  &__img{
+    width:300px;
+    justify-content: center;
+
+  } 
+}
+
+/* ==== Website Layout ===== */
+.container{
+    max-width:927px;
+    margin-left:var(--mb-1-5);
+    margin-right:var(--mb-1-5);
+}
+
+.grid{
+   display:grid;
+   gap:1.5rem; 
+}
+
+
+
+

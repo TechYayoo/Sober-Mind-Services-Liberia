@@ -1,0 +1,23 @@
+/*==== Website Service Page ====*/
+.services{
+    &__container{
+        padding-top:1rem;
+    }
+    &__data{
+        display:grid;
+        row-gap:1;
+        // background-color:darkgray;
+        background-color:var(--container-color);
+        box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15, 0.15%);
+        padding: 2rem 1.5rem;
+        border-radius: 2rem;
+        text-align: center;
+    }
+&__img{
+    width:185px;
+    justify-self:center;
+    margin-bottom:var(--mb-0-5);
+    margin-top:20px;
+}
+
+}

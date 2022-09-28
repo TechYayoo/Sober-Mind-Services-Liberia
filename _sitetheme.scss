@@ -1,0 +1,31 @@
+/* Website Theme */
+
+
+
+/* Website toggle theme in complexicity of Light/Dark */
+.change-theme{
+    position:absolute;
+    right:1.5rem;
+    top:2.3rem;
+    font-size:1.8rem;
+    cursor:pointer;
+    color:var(--title-color);
+    
+
+}
+
+/* This changes content whenever an action is made of the toggle button*/
+body.dark-theme{
+    --first-color:hsl(var(--hue), var(--sat), 60%);
+   --first-color-alt:hsl(var(--hue), var(--sat), 53%);
+    --text-color-light:hsl(var(--hue), 4%, 82%);
+    --title-color:hsl(var(--hue), 4%, 95%);
+    --body-color:hsl(var(--hue), 0%, 13%);
+    --container-color:hsl(var(--hue),8%, 16)
+    --scroll-bar-color:hsl(var(--hue), 4%, 35%);
+    --scroll-thumb-color:hsl(var(--hue), 4%, 25%);
+}
+.dark-theme .footer{
+    background-color: var(--container-color);
+}
+
